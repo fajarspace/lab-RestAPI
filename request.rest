@@ -1,0 +1,27 @@
+GET http://localhost:4000/jadwal
+
+###
+GET http://localhost:4000/jadwal/1
+
+###
+POST http://localhost:4000/jadwal
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john@gmail.com",
+    "gender": "Male"
+}
+
+###
+PATCH http://localhost:4000/jadwal/1
+Content-Type: application/json
+
+{
+    "name": "M Fikri",
+    "email": "mfikri@gmail.com",
+    "gender": "Male"
+}
+
+###
+DELETE http://localhost:4000/jadwal/2
