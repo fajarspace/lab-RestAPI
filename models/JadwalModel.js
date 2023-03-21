@@ -9,7 +9,8 @@ const Jadwal = db.define('jadwal',{
     waktu : DataTypes.STRING,
     dosen : DataTypes.STRING,
     asisten1 : DataTypes.STRING,
-    asisten2 : DataTypes.STRING
+    asisten2 : DataTypes.STRING,
+    praktikum : DataTypes.STRING
 },{
     freezeTableName:true
 });
